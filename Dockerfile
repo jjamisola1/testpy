@@ -13,6 +13,7 @@ COPY server.py ./
 COPY server2.py ./
 COPY requirements.txt ./
 
+RUN pip install -r requirements.txt
 # Now the structure looks like this '/usr/app/src/test.py'
 
 #CMD instruction should be used to run the software
