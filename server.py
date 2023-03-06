@@ -12,3 +12,4 @@ while True:
     os_command = 'python /usr/app/src/test.py'
     os.system(os_command)
     client.close()
+
