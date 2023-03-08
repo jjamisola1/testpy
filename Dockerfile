@@ -8,12 +8,12 @@ LABEL Maintainer="jamisojn"
 WORKDIR /usr/app/src
 
 #to COPY the remote file at working directory in container
-COPY test.py ./
-COPY server.py ./
+#COPY test.py ./
+#COPY server.py ./
 COPY server2.py ./
-COPY requirements.txt ./
+#COPY requirements.txt ./
 
-RUN pip install -r requirements.txt
+#RUN pip install -r requirements.txt
 # Now the structure looks like this '/usr/app/src/test.py'
 
 #CMD instruction should be used to run the software
