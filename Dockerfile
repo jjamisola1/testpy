@@ -1,4 +1,4 @@
-#Deriving the latest base image
+#Deriving the latest base image1
 FROM python:latest
 
 #Labels as key value pair
