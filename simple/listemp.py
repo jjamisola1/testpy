@@ -4,9 +4,10 @@ def content(file_name):
     lines = file.readlines()
     file.close()
 
-    lines_string = ''.join(lines)
-    lines_string = lines_string.replace("email.com", "email.com<br>")
-    lines_string = lines_string.replace(",Manager", ",Manager<br>")
+    #lines_string = ''.join(lines)
+    #lines_string = lines_string.replace("email.com", "email.com<br>")
+    #lines_string = lines_string.replace(",Manager", ",Manager<br>")
 
-    return lines_string
+    #return lines_string
+    return lines
 #print(content(file_name))
